@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="Stone Paper Scissor.css">
+</head>
+
+<body>
+    <div id="full">
+        <header>
+            <div id="head">
+                Let's Play Stone Paper Scissor
+            </div>
+        </header>
+        <main>
+            <p>Choose Any One</p>
+            <div id="main1">
+                <button onclick="calculate(0)">
+                    <img src="Images/stone.png" alt="error">
+                </button>
+                <button onclick="calculate(1)">
+                    <img src="Images/paper.png" alt="error">
+                </button>
+                <button onclick="calculate(2)">
+                    <img src="Images/scissor.png" alt="error">
+                </button>
+            </div>
+            <div id="main2">
+                <div class="score">
+                    <p>Your's Score</p>
+                    <p id="yresult">0</p>
+                </div>
+                <div class="score">
+                    <p>Computer's Score</p>
+                    <p id="cresult">0</p>
+                </div>
+            </div>
+            <div id="main3">
+                <button onclick="location.reload()">Reset</button>
+                <button onclick="final()">Final Result</button>
+            </div>
+            <p id="overall">Let's start the game</p>
+        </main>
+        <footer>
+            <div id="foot">
+                Come Back Again
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
